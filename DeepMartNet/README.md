@@ -144,12 +144,6 @@ If you delete the `./taskfiles/` folder, `runtask.py` falls back to `default_con
 	- Utilities to evaluate/plot solutions on curves and to visualize 2D landscapes.
 	- Used by `ex_meta.py` and example problems when saving results.
 
-### Misc
-
-- `*.sh` (e.g., `srun_*.sh`)
-	- Cluster/HPC helper scripts (typically for Linux/SLURM environments).
-
-
 ## Notes
 
 - DDP is used automatically when `[Environment] world_size` is greater than 1 and GPUs are available.
